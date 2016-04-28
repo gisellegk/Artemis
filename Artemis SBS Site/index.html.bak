@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <title>Artemis Spaceship Bridge Simulator: Main</title>
+    <link  rel="stylesheet"  href="style.css">
+  </head>
+  <body>
+    <div  id="splash"> <img  src="images/splash.png"  alt="Artemis">
+    </div>
+    <div  id="textblock"> text </div>
+  </body>
+</html>

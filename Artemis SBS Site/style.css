@@ -1,0 +1,65 @@
+
+body {
+	background-color: rgb(0, 0, 0); /* fallback for no image background tiling */
+    background-image: url("images/bg.jpg");
+
+}
+
+#splash {
+	width: 512px ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+#textblock {
+	width: 66%;
+	background: rgb(95, 158, 200); /* Fall-back for browsers that don't support rgba */
+    background: rgba(95, 158, 200, .7);
+    box-shadow: 0 0 75px 30px rgba(95, 158, 200, .7) ;
+    margin-left: auto ;
+	margin-right: auto ;
+}
+
+#stations-container {
+	width: 690px;
+	margin-left: auto ;
+	margin-right: auto ;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#stations-container div {
+	width: 220px;
+	padding: 100px 0;
+	margin: 5px;
+	font: bold 24px arial, sans-serif;
+	text-align: center;
+	color: white;
+	 -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+#helm {
+  background:url('images/stations/helm.png') no-repeat;
+}
+#tactical {
+  background:url('images/stations/tactical.png') no-repeat;
+}
+#engineering {
+  background:url('images/stations/engineer.png') no-repeat;
+}
+#science {
+  background:url('images/stations/science.png') no-repeat;
+}
+#communications {
+  background:url('images/stations/communication.png') no-repeat;
+}
+#command {
+  background:url('images/stations/command.png') no-repeat;
+}
+
+/*
+ * Cyan 224-255-255
+* Cadet BLue 95-158-160*/
